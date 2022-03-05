@@ -5,7 +5,7 @@ Please add the content of 20sites-html file. I excluded them for data privacy. T
 docker build --pull --rm -f "Dockerfile" -t innonlpcase:lastest .
 ```
 
-If you error with code 137, you should give more memory to Docker. See the issue: https://stackoverflow.com/questions/44907444/error-137-on-docker-build-command-on-win7
+If you see error with code 137, you should give more memory to Docker. See the issue: https://stackoverflow.com/questions/44907444/error-137-on-docker-build-command-on-win7
 ![alt text](dockerResource.png)
 
 Run builded image with below command:
@@ -19,7 +19,7 @@ If you don't want to use Docker, please install necessary libraries from require
 
 # Keyword Proposition
 
-Three different method is used to extract keywords and their weights. A sample output:
+Three different methods are used to extract keywords and their weights. A sample output:
 ```
 {
     "textRank": {
